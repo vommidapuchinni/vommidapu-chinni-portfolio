@@ -3,13 +3,18 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
 header {
-    background: #222;
-    color: white;
-    padding: 20px;
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -19,9 +24,9 @@ header h1 {
 }
 
 header h2 {
-    margin: 10px 0;
+    margin: 5px 0;
     font-size: 1.5em;
-    color: #bbb;
+    color: #ccc;
 }
 
 header p {
@@ -29,25 +34,22 @@ header p {
 }
 
 header a {
-    color: #00aaff;
+    color: #4CAF50;
     text-decoration: none;
     font-weight: bold;
 }
 
-header a:hover {
-    text-decoration: underline;
-}
-
 section {
-    margin: 20px;
+    background: #fff;
     padding: 20px;
-    background: white;
-    border-radius: 8px;
+    margin: 20px 0;
+    border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-section h2 {
-    border-bottom: 2px solid #222;
+h2 {
+    color: #333;
+    border-bottom: 2px solid #4CAF50;
     padding-bottom: 5px;
 }
 
@@ -57,15 +59,16 @@ ul {
 }
 
 ul li {
-    background: url('checkmark.png') no-repeat left center;
-    padding-left: 30px;
-    margin-bottom: 10px;
+    background: #e8e8e8;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 5px solid #4CAF50;
 }
 
 footer {
     text-align: center;
-    padding: 20px;
-    background: #222;
+    padding: 10px;
+    background: #333;
     color: white;
     margin-top: 20px;
 }
